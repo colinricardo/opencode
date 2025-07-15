@@ -14,9 +14,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/lsp/protocol"
+	"github.com/colinricardo/opencode/internal/config"
+	"github.com/colinricardo/opencode/internal/logging"
+	"github.com/colinricardo/opencode/internal/lsp/protocol"
 )
 
 type Client struct {

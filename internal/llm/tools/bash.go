@@ -7,9 +7,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/tools/shell"
-	"github.com/opencode-ai/opencode/internal/permission"
+	"github.com/colinricardo/opencode/internal/config"
+	"github.com/colinricardo/opencode/internal/llm/tools/shell"
+	"github.com/colinricardo/opencode/internal/permission"
 )
 
 type BashParams struct {

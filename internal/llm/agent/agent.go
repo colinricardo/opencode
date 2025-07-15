@@ -8,16 +8,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/opencode-ai/opencode/internal/config"
-	"github.com/opencode-ai/opencode/internal/llm/models"
-	"github.com/opencode-ai/opencode/internal/llm/prompt"
-	"github.com/opencode-ai/opencode/internal/llm/provider"
-	"github.com/opencode-ai/opencode/internal/llm/tools"
-	"github.com/opencode-ai/opencode/internal/logging"
-	"github.com/opencode-ai/opencode/internal/message"
-	"github.com/opencode-ai/opencode/internal/permission"
-	"github.com/opencode-ai/opencode/internal/pubsub"
-	"github.com/opencode-ai/opencode/internal/session"
+	"github.com/colinricardo/opencode/internal/config"
+	"github.com/colinricardo/opencode/internal/llm/models"
+	"github.com/colinricardo/opencode/internal/llm/prompt"
+	"github.com/colinricardo/opencode/internal/llm/provider"
+	"github.com/colinricardo/opencode/internal/llm/tools"
+	"github.com/colinricardo/opencode/internal/logging"
+	"github.com/colinricardo/opencode/internal/message"
+	"github.com/colinricardo/opencode/internal/permission"
+	"github.com/colinricardo/opencode/internal/pubsub"
+	"github.com/colinricardo/opencode/internal/session"
 )
 
 // Common errors
